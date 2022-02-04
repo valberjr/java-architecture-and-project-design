@@ -10,10 +10,12 @@ public class BudgetDiscountPriceBiggerThanFiveHundred extends Discount {
     }
 
     @Override
-    public BigDecimal calculate(Budget budget) {
-        if (budget.getPrice().compareTo(new BigDecimal("500")) > 0) {
-            return budget.getPrice().multiply(new BigDecimal("0.05"));
-        }
-        return next.calculate(budget);
+    public BigDecimal performCalculation(Budget budget) {
+        return budget.getPrice().multiply(new BigDecimal("0.05"));
+    }
+
+    @Override
+    public boolean shouldApply(Budget budget) {
+        return budget.getPrice().compareTo(new BigDecimal("500")) > 0;
     }
 }
