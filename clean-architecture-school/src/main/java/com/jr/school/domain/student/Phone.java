@@ -1,4 +1,4 @@
-package com.jr.school.student;
+package com.jr.school.domain.student;
 
 public class Phone {
 

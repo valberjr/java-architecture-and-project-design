@@ -1,6 +1,6 @@
-package com.jr.school.referall;
+package com.jr.school.domain.referall;
 
-import com.jr.school.student.Student;
+import com.jr.school.domain.student.Student;
 
 import java.time.LocalDateTime;
 
