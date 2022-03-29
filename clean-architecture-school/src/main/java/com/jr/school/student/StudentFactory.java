@@ -1,4 +1,4 @@
-package com.jr.school;
+package com.jr.school.student;
 
 // it's not an application of factory method
 public class StudentFactory {

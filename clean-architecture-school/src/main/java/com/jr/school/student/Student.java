@@ -1,4 +1,4 @@
-package com.jr.school;
+package com.jr.school.student;
 
 import java.util.ArrayList;
 import java.util.List;

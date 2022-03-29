@@ -1,4 +1,4 @@
-package com.jr.school;
+package com.jr.school.student;
 
 // value object
 public class Email {
