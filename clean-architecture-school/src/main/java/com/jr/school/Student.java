@@ -12,8 +12,14 @@ public class Student {
 
     private List<Phone> phones = new ArrayList<>();
 
-    public void addPhone(String ddd, String number) {
-        this.phones.add(new Phone(ddd, number));
+    public Student(CPF cpf, String name, Email email) {
+        this.cpf = cpf;
+        this.name = name;
+        this.email = email;
+    }
+
+    public void addPhone(String areaCode, String number) {
+        this.phones.add(new Phone(areaCode, number));
     }
 
     public CPF getCpf() {
