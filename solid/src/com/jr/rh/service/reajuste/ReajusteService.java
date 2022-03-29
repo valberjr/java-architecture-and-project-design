@@ -1,4 +1,4 @@
-package com.jr.rh.service;
+package com.jr.rh.service.reajuste;
 
 import com.jr.rh.model.Funcionario;
 
