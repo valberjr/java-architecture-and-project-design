@@ -1,6 +1,6 @@
 package com.jr.school.domain.student;
 
-public interface PasswordCipher {
+public interface PassworEncoder {
 
     String encode(String password);
 
