@@ -1,2 +1,14 @@
-# Mac
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+out/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Mac ###
 .DS_Store
