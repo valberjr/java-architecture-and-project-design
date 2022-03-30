@@ -1,6 +1,7 @@
 package com.jr.school.academic.domain.student;
 
 import com.jr.school.academic.domain.Event;
+import com.jr.school.shared.domain.CPF;
 
 import java.time.LocalDateTime;
 

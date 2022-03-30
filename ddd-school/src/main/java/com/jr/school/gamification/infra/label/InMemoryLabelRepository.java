@@ -2,7 +2,7 @@ package com.jr.school.gamification.infra.label;
 
 import com.jr.school.gamification.domain.Label;
 import com.jr.school.gamification.domain.LabelRepository;
-import com.jr.school.academic.domain.student.CPF;
+import com.jr.school.shared.domain.CPF;
 
 import java.util.ArrayList;
 import java.util.List;

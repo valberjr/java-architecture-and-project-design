@@ -3,7 +3,7 @@ package com.jr.school.academic.infra.sudent;
 import com.jr.school.academic.domain.student.Student;
 import com.jr.school.academic.domain.student.StudentNotFound;
 import com.jr.school.academic.domain.student.StudentRepository;
-import com.jr.school.academic.domain.student.CPF;
+import com.jr.school.shared.domain.CPF;
 
 import java.util.ArrayList;
 import java.util.List;

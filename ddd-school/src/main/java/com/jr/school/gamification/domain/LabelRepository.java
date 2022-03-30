@@ -1,6 +1,6 @@
 package com.jr.school.gamification.domain;
 
-import com.jr.school.academic.domain.student.CPF;
+import com.jr.school.shared.domain.CPF;
 
 import java.util.List;
 

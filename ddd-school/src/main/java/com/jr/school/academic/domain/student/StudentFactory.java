@@ -1,5 +1,7 @@
 package com.jr.school.academic.domain.student;
 
+import com.jr.school.shared.domain.CPF;
+
 // it's not an application of factory method
 public class StudentFactory {
 

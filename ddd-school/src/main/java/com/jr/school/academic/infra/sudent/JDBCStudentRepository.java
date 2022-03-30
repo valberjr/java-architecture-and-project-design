@@ -2,6 +2,7 @@ package com.jr.school.academic.infra.sudent;
 
 import com.jr.school.academic.domain.student.*;
 import com.jr.school.domain.student.*;
+import com.jr.school.shared.domain.CPF;
 
 import java.sql.Connection;
 import java.sql.SQLException;

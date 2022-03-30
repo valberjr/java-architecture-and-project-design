@@ -1,4 +1,4 @@
-package com.jr.school.academic.domain.student;
+package com.jr.school.shared.domain;
 
 // value object
 public class CPF {

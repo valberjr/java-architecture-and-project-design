@@ -1,5 +1,6 @@
 package com.jr.school.academic.domain.student;
 
+import com.jr.school.shared.domain.CPF;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,5 +1,7 @@
 package com.jr.school.academic.domain.student;
 
+import com.jr.school.shared.domain.CPF;
+
 import java.io.Serial;
 
 public class StudentNotFound extends RuntimeException {
