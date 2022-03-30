@@ -21,6 +21,9 @@ public class Student {
     }
 
     public void addPhone(String areaCode, String number) {
+        if (phones.size() == 2) {
+            throw new IllegalArgumentException("Maximum number of phones reached");
+        }
         this.phones.add(new Phone(areaCode, number));
     }
 
