@@ -1,7 +1,7 @@
 package com.jr.school.academic.domain.student;
 
-import com.jr.school.academic.domain.Event;
-import com.jr.school.academic.domain.Listener;
+import com.jr.school.shared.domain.event.Event;
+import com.jr.school.shared.domain.event.Listener;
 
 import java.time.format.DateTimeFormatter;
 

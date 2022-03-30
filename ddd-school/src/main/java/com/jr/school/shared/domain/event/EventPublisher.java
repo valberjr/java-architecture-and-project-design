@@ -1,4 +1,4 @@
-package com.jr.school.academic.domain;
+package com.jr.school.shared.domain.event;
 
 import java.util.ArrayList;
 import java.util.List;

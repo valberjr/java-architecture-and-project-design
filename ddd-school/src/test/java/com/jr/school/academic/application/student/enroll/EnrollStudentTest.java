@@ -1,6 +1,6 @@
 package com.jr.school.academic.application.student.enroll;
 
-import com.jr.school.academic.domain.EventPublisher;
+import com.jr.school.shared.domain.event.EventPublisher;
 import com.jr.school.academic.domain.student.LogEnrolledStudent;
 import com.jr.school.shared.domain.CPF;
 import com.jr.school.academic.infra.sudent.InMemoryStudentRepository;

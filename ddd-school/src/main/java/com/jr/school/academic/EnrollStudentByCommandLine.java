@@ -1,6 +1,6 @@
 package com.jr.school.academic;
 
-import com.jr.school.academic.domain.EventPublisher;
+import com.jr.school.shared.domain.event.EventPublisher;
 import com.jr.school.academic.domain.student.LogEnrolledStudent;
 import com.jr.school.academic.application.student.enroll.EnrollStudent;
 import com.jr.school.academic.application.student.enroll.EnrollStudentDto;
