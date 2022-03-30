@@ -20,7 +20,7 @@ public class JDBCStudentRepository implements StudentRepository {
             String sql = "INSERT INTO STUDENT VALUES(?,?,?)";
 
             var ps = connection.prepareStatement(sql);
-            ps.setString(1, student.getCpf());
+            ps.setString(1, student.getCpf().toString());
             ps.setString(2, student.getName());
             ps.setString(3, student.getEmail());
             ps.execute();

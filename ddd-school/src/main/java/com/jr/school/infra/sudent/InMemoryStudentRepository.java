@@ -20,7 +20,7 @@ public class InMemoryStudentRepository implements StudentRepository {
     @Override
     public Student findByCPF(CPF cpf) {
         return this.enrolled.stream()
-                .filter(s -> s.getCpf().equals(cpf.getNumber()))
+                .filter(s -> s.getCpf().getNumber().equals(cpf.getNumber()))
                 .findFirst()
                 .orElseThrow(() -> new StudentNotFound(cpf));
     }

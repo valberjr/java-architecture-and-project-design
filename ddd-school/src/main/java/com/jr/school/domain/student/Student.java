@@ -28,8 +28,8 @@ public class Student {
         this.phones.add(new Phone(areaCode, number));
     }
 
-    public String getCpf() {
-        return cpf.getNumber();
+    public CPF getCpf() {
+        return cpf;
     }
 
     public String getName() {
