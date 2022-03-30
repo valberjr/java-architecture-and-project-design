@@ -3,6 +3,7 @@ package com.jr.school.domain.student;
 import java.util.ArrayList;
 import java.util.List;
 
+// AGGREGATE ROOT
 public class Student {
 
     private CPF cpf;
